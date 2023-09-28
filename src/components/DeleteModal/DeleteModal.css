@@ -1,0 +1,26 @@
+.delete-modal{
+    position: relative;
+    border: solid 1px #ccc;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+    width: 100%;
+    max-width: 400px;
+    padding: 24px;
+    border-radius: 16px;
+    background: #fff;
+    .action-buttons{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 40px;
+    }
+    .close-modal{
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        width: 20px;
+        cursor: pointer;
+    }    
+}

@@ -1,0 +1,18 @@
+.search-container{
+    position: relative;
+    margin-top: 24px;
+    .form-control{
+        padding-left:50px;
+        border: solid 1px #ccc;
+        border-radius: 16px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .search-icon{
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        width: 24px;
+        transform: translateY(-50%);
+    }
+}
